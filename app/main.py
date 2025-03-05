@@ -42,4 +42,4 @@ app.include_router(post.router)
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to FastAPI MVC Application"}
+    return {"message": "Welcome to my FastAPI MVC based app"}
